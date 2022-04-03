@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hotspot Area Smoke Test">
+    <parameter name="browser" value="chrome"/>
+    <test name="Login Chrome">
+        <groups>
+        <run>
+            <include name="Positive"/>
+        </run>
+        </groups>
+        <classes>
+            <class name="placelab.tests.HotSpotAreaReportTest">
+            </class>
+        </classes>
+    </test>
+</suite>
