@@ -1,2 +1,2 @@
 # QAMP_Lesson18_PlaceLabSmokeTest
-Smoke test for Hotspot Area Analysis Report
+PlaceLab application - Hotspot Area Analysis Report Smoke Test
